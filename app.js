@@ -2,12 +2,14 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
  
 var app = express();
- 
-app.engine('handlebars', exphbs());
+
+const libros = require ('./data/libros.json');
+
+app.engine('handlebars', exphbs({ partialsDir: __dirname + '/views/partials/' }));
 app.set('view engine', 'handlebars');
  
-app.get('/', function (req, res) {
-    res.render('home');
+app.get('/listaLibros', function (req, res) {
+    res.render('home',{libro: libros});
 });
- 
+
 app.listen(3000);
