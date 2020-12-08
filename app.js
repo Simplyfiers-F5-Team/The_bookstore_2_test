@@ -17,12 +17,14 @@ app.get('/listaLibros', function (req, res) {
 });
 
 app.get('/', function (req, res) {
-    res.render('login');
+    res.render('login', {layout: 'login'});
 });
 
 app.post('/login', function (req, res) {
     user.userName = req.body.userName;
     res.redirect('/listaLibros');
 });
+
+app.use(express.static('public'));
 
 app.listen(3001);
