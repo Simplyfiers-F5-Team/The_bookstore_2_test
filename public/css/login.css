@@ -26,6 +26,7 @@ header figure {
 }
 header figure img {
   width: 62vh;
+  border-radius: 50%;
 }
 
 h1 {
