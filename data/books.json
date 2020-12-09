@@ -1,0 +1,64 @@
+[{
+    "title": "Handlebars.js",
+    "author": "Gabriel Manricks",
+    "stock": 5,
+    "price": 85,
+    "cover": "img/bookHandlebars.jpg"
+},
+
+{
+    "title": "Design Patterns",
+    "author": "Gang of four",
+    "stock": 12,
+    "price": 75,
+    "cover": "img/bookDesignpattern.jpg"
+},
+
+{
+    "title": "Refactoring",
+    "author": "Scott W.Ambler and Pramod J.Sadalage",
+    "stock": 15,
+    "price": 55,
+    "cover": "img/bookRefactoring.jpg"
+},
+
+{
+    "title": "Algorithms",
+    "author": "Robert Sedgewich and Kevin Wayne",
+    "stock": 21,
+    "price": 25,
+    "cover": "img/bookAlgorithms.jpg"
+},
+
+{
+    "title": "Code complete 2",
+    "author": "Steve McConell",
+    "stock": 30,
+    "price": 64,
+    "cover": "img/bookCode2.jpg"
+},
+
+{
+    "title": "Clean Code",
+    "author": "Robert C.Martin",
+    "stock": 33,
+    "price": 54,
+    "cover": "img/bookCleancode.jpg"
+},
+
+{
+    "title": "Programation fundaments",
+    "author": "Luis Joyanes Aguilar",
+    "stock": 28,
+    "price": 45,
+    "cover": "img/bookFundamentos.jpg"
+},
+
+{
+    "title": "The Cathedral & Bazar",
+    "author": "Eric S. Ramond",
+    "stock": 44,
+    "price": 67,
+    "cover": "img/bookThecatedral.jpg"
+}
+]
