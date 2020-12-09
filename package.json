@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "sass": "sass sass:public/css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass sass:public/css && node app.js"
   },
   "repository": {
     "type": "git",

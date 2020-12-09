@@ -3,13 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
+  border: none;
 }
 
 body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background-color: #131921;
+  background-color: #76787a;
   height: 100vh;
 }
 

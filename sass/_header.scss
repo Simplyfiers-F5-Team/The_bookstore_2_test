@@ -1,0 +1,33 @@
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: silver;
+
+    h1 {
+        color: white;
+        margin: 2vh 3vw;
+    }
+
+    form {
+        height: 7vh;
+        display: flex;
+        align-items: center;
+    }
+
+    button {
+        outline: none;
+        border: none;
+        background: transparent;
+        margin-right: 5vw;
+        height: 4vh;
+    }
+
+    input[type="text"] {
+        line-height: 4vh;
+        width: 40vw;
+        padding-left: 2vh;
+    }
+}
+
+

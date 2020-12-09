@@ -1,0 +1,26 @@
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: silver;
+}
+header h1 {
+  color: white;
+  margin: 2vh 3vw;
+}
+header form {
+  height: 7vh;
+}
+header button * {
+  outline: none;
+  border: none;
+  background: transparent;
+  margin-right: 5vw;
+  height: 4vh;
+}
+header input[type=text] {
+  line-height: 4vh;
+  width: 40vw;
+}
+
+/*# sourceMappingURL=header.css.map */

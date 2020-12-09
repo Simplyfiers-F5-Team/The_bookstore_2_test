@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: silver;
+}
+header h1 {
+  color: white;
+  margin: 2vh 3vw;
+}
+header form {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+}
+header button {
+  outline: none;
+  border: none;
+  background: transparent;
+  margin-right: 5vw;
+  height: 4vh;
+}
+header input[type=text] {
+  line-height: 4vh;
+  width: 40vw;
+  padding-left: 2vh;
+}
+
+/*# sourceMappingURL=main.css.map */
