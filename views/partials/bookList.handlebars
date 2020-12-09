@@ -1,9 +1,11 @@
-<dl>
+<ul>
     {{#each books}}
-    <dt>title:</dt><dd>{{this.title}}</dd>
-    <dt>author:</dt><dd>{{this.author}}</dd>
-    <dt>stock:</dt><dd>{{this.stock}}</dd>
-    <dt>price:</dt><dd>{{this.price}}</dd>
-    <dt>cover:</dt><dd><img src="{{this.cover}}"></dd>
+        <li>
+            <dt>title:</dt><dd>{{this.title}}</dd>
+            <dt>author:</dt><dd>{{this.author}}</dd>
+            <dt>stock:</dt><dd>{{this.stock}}</dd>
+            <dt>price:</dt><dd>{{this.price}}</dd>
+            <dt>cover:</dt><dd><img src="{{this.cover}}"></dd>
+        </li>
     {{/each}}
-</dl>
+</ul>

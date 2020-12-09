@@ -35,4 +35,17 @@ header input[type=text] {
   padding-left: 2vh;
 }
 
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 300px 300px;
+}
+ul dt {
+  display: none;
+}
+ul dd img {
+  width: 18vw;
+  height: 28vh;
+}
+
 /*# sourceMappingURL=main.css.map */
