@@ -5,12 +5,33 @@
   box-sizing: border-box;
   outline: none;
   border: none;
+  font-family: "Poppins", sans-serif;
 }
 
+@media print {
+  header {
+    background-color: white;
+  }
+
+  header h1 {
+    color: black;
+    margin: 2vh 3vw;
+    text-align: center;
+  }
+
+  header button {
+    display: none;
+  }
+
+  header form {
+    display: none;
+  }
+}
 header {
-  height: 10vh;
+  padding: 0.7vh;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   background-color: silver;
 }
 header h1 {
@@ -26,7 +47,7 @@ header button {
   outline: none;
   border: none;
   background: transparent;
-  margin-right: 5vw;
+  margin: 0 3vw;
   height: 4vh;
 }
 header input[type=text] {
@@ -34,18 +55,40 @@ header input[type=text] {
   width: 40vw;
   padding-left: 2vh;
 }
+header .material-icons {
+  font-size: 40px;
+}
 
+@media (max-widht: 700px) {
+  header input[type=text] {
+    margin-left: 4vw;
+  }
+}
 ul {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: 300px 300px;
+  grid-template-columns: repeat(4, 23vw);
+  list-style: none;
+  grid-gap: 20px;
+  padding: 40px;
 }
 ul dt {
   display: none;
 }
 ul dd img {
-  width: 18vw;
   height: 28vh;
+}
+ul dd span {
+  font-size: 16px;
+}
+ul dd .material-icons {
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  ul {
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

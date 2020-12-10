@@ -1,18 +1,30 @@
 ul {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: 300px 300px;
+    grid-template-columns: repeat(4, 23vw);
+    list-style: none;
+    grid-gap: 20px;
+    padding: 40px;
 
     dt {
         display: none;
     }
 
     dd img {
-        width: 18vw;
         height: 28vh;
     }
-    
+
+    dd span{
+        font-size: 16px;
+    }
+
+    dd .material-icons {
+        font-size: 16px;
+    }
 }
 
-
-
+@media (max-width: 700px) { 
+    ul {
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 10px;
+        }
+}

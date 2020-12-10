@@ -8,4 +8,27 @@ $regular-fontfamily: 'Poppins', sans-serif;
     box-sizing: border-box;
     outline: none;
     border: none;
+    font-family: $regular-fontfamily;
+}
+
+@media print {
+
+    header {
+        background-color: white;
+    }
+
+    header h1 {
+        color: black;
+        margin: 2vh 3vw;
+        text-align: center;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header form {
+        display: none;
+    }
+
 }

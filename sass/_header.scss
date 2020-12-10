@@ -1,7 +1,8 @@
 header {
-    height: 10vh;
+    padding: 0.7vh;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background-color: silver;
 
     h1 {
@@ -19,7 +20,7 @@ header {
         outline: none;
         border: none;
         background: transparent;
-        margin-right: 5vw;
+        margin: 0 3vw;
         height: 4vh;
     }
 
@@ -28,6 +29,15 @@ header {
         width: 40vw;
         padding-left: 2vh;
     }
+
+    .material-icons {
+        font-size: 40px;
+    }
 }
 
+@media (max-widht: 700px) {
+    header input[type=text] {
+        margin-left: 4vw;
+    }
+}
 

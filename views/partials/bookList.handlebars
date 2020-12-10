@@ -1,11 +1,11 @@
 <ul>
     {{#each books}}
         <li>
-            <dt>title:</dt><dd>{{this.title}}</dd>
-            <dt>author:</dt><dd>{{this.author}}</dd>
-            <dt>stock:</dt><dd>{{this.stock}}</dd>
-            <dt>price:</dt><dd>{{this.price}}</dd>
-            <dt>cover:</dt><dd><img src="{{this.cover}}"></dd>
+            <dt class="cover">cover:</dt><dd><img src="{{this.cover}}"></dd>
+            <h3><dt class="title">title:</dt><dd>{{this.title}}</dd></h3>
+            <dt class="author">author:</dt><dd>{{this.author}}</dd>
+            <dt class="stock">stock:</dt><dd><span class="material-icons">widgets</span>{{this.stock}}</dd>
+            <dt class="price">price:</dt><dd><span class="material-icons">euro_symbol</span>{{this.price}}</dd>
         </li>
     {{/each}}
 </ul>
