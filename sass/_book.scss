@@ -1,9 +1,14 @@
 ul {
     display: grid;
-    grid-template-columns: repeat(4, 23vw);
+    grid-template-columns: repeat(auto-fill, 12rem);
     list-style: none;
     grid-gap: 20px;
     padding: 40px;
+    justify-content: space-between;
+
+    li {
+        padding: 1rem;
+    }
 
     dt {
         display: none;
@@ -20,11 +25,13 @@ ul {
     dd .material-icons {
         font-size: 16px;
     }
-}
 
-@media (max-width: 700px) { 
-    ul {
-        grid-template-columns: repeat(2, auto);
-        grid-gap: 10px;
-        }
+    .stock+dd {
+        display: inline-block;
+    }
+
+    .price+dd {
+        display: inline-block;
+        margin-left: 5vw;
+    }
 }

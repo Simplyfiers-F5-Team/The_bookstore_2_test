@@ -8,6 +8,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+.list-books {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.list-books:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 @media print {
   header {
     background-color: white;
@@ -66,10 +74,14 @@ header .material-icons {
 }
 ul {
   display: grid;
-  grid-template-columns: repeat(4, 23vw);
+  grid-template-columns: repeat(auto-fill, 12rem);
   list-style: none;
   grid-gap: 20px;
   padding: 40px;
+  justify-content: space-between;
+}
+ul li {
+  padding: 1rem;
 }
 ul dt {
   display: none;
@@ -83,12 +95,12 @@ ul dd span {
 ul dd .material-icons {
   font-size: 16px;
 }
-
-@media (max-width: 700px) {
-  ul {
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 10px;
-  }
+ul .stock + dd {
+  display: inline-block;
+}
+ul .price + dd {
+  display: inline-block;
+  margin-left: 5vw;
 }
 
 /*# sourceMappingURL=main.css.map */
