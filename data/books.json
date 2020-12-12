@@ -55,10 +55,38 @@
 },
 
 {
-    "title": "The Cathedral & Bazar",
-    "author": "Eric S. Ramond",
-    "stock": 44,
-    "price": 67,
-    "cover": "img/bookThecatedral.jpg"
+    "title": "Phyton",
+    "author": "Alfredo Muños & Sheila Corcoles",
+    "stock": 24,
+    "price": 72,
+    "cover": "img/python.jpg"
+},
+{
+    "title": "Aprender React",
+    "author": "Lionel Lopez",
+    "stock": 14,
+    "price": 55,
+    "cover": "img/react.jpg"
+},
+{
+    "title": "JS y Svelte",
+    "author": "Justin Scherer",
+    "stock": 4,
+    "price": 19,
+    "cover": "img/svelte.jpg"
+},
+{
+    "title": "Programar con C++",
+    "author": "Miguel Angel Acera",
+    "stock": 13,
+    "price": 23,
+    "cover": "img/c++.jpg"
+},
+{
+    "title": "JS y Svelte",
+    "author": "Pepito Grillo",
+    "stock": 22,
+    "price": 45,
+    "cover": "img/go.jpg"
 }
 ]

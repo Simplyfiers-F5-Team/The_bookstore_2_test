@@ -1,9 +1,17 @@
+@use 'global';
+
 ul {
     display: grid;
-    grid-template-columns: repeat(4, 23vw);
+    grid-template-columns: repeat(auto-fill, 12rem);
     list-style: none;
     grid-gap: 20px;
     padding: 40px;
+    justify-content: space-between;
+    background-color: global.$main-bg-colour;
+
+    li {
+        padding: 1rem;
+    }
 
     dt {
         display: none;
@@ -11,6 +19,9 @@ ul {
 
     dd img {
         height: 28vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
     }
 
     dd span{
@@ -20,11 +31,46 @@ ul {
     dd .material-icons {
         font-size: 16px;
     }
+
+    .stock+dd {
+        display: inline-block;
+    }
+
+    .price+dd {
+        display: inline-block;
+        margin-left: 5vw;
+    }
 }
 
-@media (max-width: 700px) { 
+@media print {
+
+    * {
+        background-color: white;
+    }
+
+    header {
+        background-color: white;
+    }
+
+    header h1 {
+        color: black;
+        margin: 2vh 3vw;
+        text-align: center;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header form {
+        display: none;
+    }
+
     ul {
-        grid-template-columns: repeat(2, auto);
-        grid-gap: 10px;
-        }
+        background-color: white;
+    }
+
+    li {
+        width: 20cm;
+    }
 }

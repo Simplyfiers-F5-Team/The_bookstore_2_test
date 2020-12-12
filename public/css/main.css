@@ -8,31 +8,23 @@
   font-family: "Poppins", sans-serif;
 }
 
-@media print {
-  header {
-    background-color: white;
-  }
-
-  header h1 {
-    color: black;
-    margin: 2vh 3vw;
-    text-align: center;
-  }
-
-  header button {
-    display: none;
-  }
-
-  header form {
-    display: none;
-  }
+.list-books {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: #cce4da;
 }
+.list-books:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: #cecaca;
+  transform: scale(1.1);
+}
+
 header {
   padding: 0.7vh;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-color: silver;
+  background-color: #9E4629;
 }
 header h1 {
   color: white;
@@ -66,16 +58,24 @@ header .material-icons {
 }
 ul {
   display: grid;
-  grid-template-columns: repeat(4, 23vw);
+  grid-template-columns: repeat(auto-fill, 12rem);
   list-style: none;
   grid-gap: 20px;
   padding: 40px;
+  justify-content: space-between;
+  background-color: #82D9B6;
+}
+ul li {
+  padding: 1rem;
 }
 ul dt {
   display: none;
 }
 ul dd img {
   height: 28vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 ul dd span {
   font-size: 16px;
@@ -83,11 +83,43 @@ ul dd span {
 ul dd .material-icons {
   font-size: 16px;
 }
+ul .stock + dd {
+  display: inline-block;
+}
+ul .price + dd {
+  display: inline-block;
+  margin-left: 5vw;
+}
 
-@media (max-width: 700px) {
+@media print {
+  * {
+    background-color: white;
+  }
+
+  header {
+    background-color: white;
+  }
+
+  header h1 {
+    color: black;
+    margin: 2vh 3vw;
+    text-align: center;
+  }
+
+  header button {
+    display: none;
+  }
+
+  header form {
+    display: none;
+  }
+
   ul {
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 10px;
+    background-color: white;
+  }
+
+  li {
+    width: 20cm;
   }
 }
 
