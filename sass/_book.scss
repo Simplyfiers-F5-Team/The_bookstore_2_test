@@ -45,6 +45,10 @@ ul {
     .price+dd {
         text-align: right;
     }
+
+    .description1 {
+        display: none;
+    }   
 }
 
 @media print {

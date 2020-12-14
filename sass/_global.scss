@@ -23,4 +23,8 @@ $regular-fontfamily: 'Poppins', sans-serif;
         background-color: $book-hover-colour;
         transform: scale(1.1);
       }
+
+      .description1:hover {
+        display: block;
+      }
 }

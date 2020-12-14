@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.get('/bookList', function (req, res) {
-    res.render('home', {book: books, user: user.userName, desc: description});
+    res.render('home', {book: books, user: user.userName});
 });
 
 app.get('/', function (req, res) {
