@@ -64,6 +64,9 @@ ul {
   padding: 40px;
   justify-content: space-between;
   background-color: #82D9B6;
+  /*     .stock+dd {
+
+      } */
 }
 ul li {
   padding: 1rem;
@@ -83,12 +86,13 @@ ul dd span {
 ul dd .material-icons {
   font-size: 16px;
 }
-ul .stock + dd {
-  display: inline-block;
+ul .stock-precio {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
 }
 ul .price + dd {
-  display: inline-block;
-  margin-left: 5vw;
+  text-align: right;
 }
 
 @media print {

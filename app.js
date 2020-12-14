@@ -5,6 +5,7 @@ var app = express();
 
 const books = require('./data/books.json');
 let user = require('./data/user.json');
+let description = require('./data/description.json');
 
 app.engine('handlebars', exphbs({ partialsDir: __dirname + '/views/partials/' }));
 app.set('view engine', 'handlebars');
@@ -13,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.get('/bookList', function (req, res) {
-    res.render('home', {book: books, user: user.userName});
+    res.render('home', {book: books, user: user.userName, desc: description});
 });
 
 app.get('/', function (req, res) {

@@ -1,13 +1,10 @@
 <ul>
-    {{#each books}}
+    {{#each booksDesc}}
         <li class="list-books">
             <dt class="cover">cover:</dt><dd><img src="{{this.cover}}"></dd>
             <h3><dt class="title">title:</dt><dd>{{this.title}}</dd></h3>
             <dt class="author">author:</dt><dd>{{this.author}}</dd>
-            <div class="stock-precio">
-                <dt class="stock">stock:</dt><dd><span class="material-icons">widgets</span>{{this.stock}}</dd>
-                <dt class="price">price:</dt><dd>{{this.price}} €</dd>
-            </div>
+            <dt class="description">description:</dt><dd>{{this.description}}</dd>
         </li>
     {{/each}}
 </ul>
