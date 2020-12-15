@@ -71,12 +71,10 @@ ul {
   grid-template-columns: repeat(auto-fill, 12rem);
   list-style: none;
   grid-gap: 20px;
-  overflow: auto;
   padding-bottom: 2rem;
   padding-top: 8rem;
   padding: 40px;
   justify-content: space-between;
-  background-color: #82D9B6;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -159,6 +157,10 @@ ul .description:hover {
   li {
     width: 20cm;
   }
+}
+body {
+  min-height: 100vh;
+  background-color: #82D9B6;
 }
 
 /*# sourceMappingURL=main.css.map */

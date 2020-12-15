@@ -5,12 +5,12 @@ ul {
     grid-template-columns: repeat(auto-fill, 12rem);
     list-style: none;
 	grid-gap: 20px;
-	overflow: auto;
+	// overflow: auto;
 	padding-bottom: 2rem;
 	padding-top: 8rem;
     padding: 40px;
     justify-content: space-between;
-	background-color: global.$main-bg-colour;
+	// background-color: global.$main-bg-colour;
 	&::-webkit-scrollbar {
 		display: none;
 	  }

@@ -1,3 +1,8 @@
 @use 'global';
 @use 'header';
 @use 'book';
+
+body{
+	min-height: 100vh;
+	background-color: global.$main-bg-colour;
+}

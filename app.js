@@ -25,6 +25,12 @@ app.post('/login', function (req, res) {
     res.redirect('/bookList');
 });
 
+app.post('/bookList', function(req, res) {
+	searchText = req.body.search;
+	foundBooks = books.filter(book => book.title.toLowerCase().includes(searchText.toLowerCase()));
+	res.render('home', {book: foundBooks, user: user.userName});
+});
+
 app.use(express.static('public'));
 
 app.listen(3001);
