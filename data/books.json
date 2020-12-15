@@ -3,7 +3,8 @@
     "author": "Gabriel Manricks",
     "stock": 5,
     "price": 85,
-    "cover": "img/bookHandlebars.jpg"
+    "cover": "img/bookHandlebars.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -11,7 +12,8 @@
     "author": "Gang of four",
     "stock": 12,
     "price": 75,
-    "cover": "img/bookDesignpattern.jpg"
+    "cover": "img/bookDesignpattern.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -19,7 +21,8 @@
     "author": "Scott W.Ambler and Pramod J.Sadalage",
     "stock": 15,
     "price": 55,
-    "cover": "img/bookRefactoring.jpg"
+    "cover": "img/bookRefactoring.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -27,7 +30,8 @@
     "author": "Robert Sedgewich and Kevin Wayne",
     "stock": 21,
     "price": 25,
-    "cover": "img/bookAlgorithms.jpg"
+    "cover": "img/bookAlgorithms.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -35,7 +39,8 @@
     "author": "Steve McConell",
     "stock": 30,
     "price": 64,
-    "cover": "img/bookCode2.jpg"
+    "cover": "img/bookCode2.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -43,7 +48,8 @@
     "author": "Robert C.Martin",
     "stock": 33,
     "price": 54,
-    "cover": "img/bookCleancode.jpg"
+    "cover": "img/bookCleancode.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -51,7 +57,8 @@
     "author": "Luis Joyanes Aguilar",
     "stock": 28,
     "price": 45,
-    "cover": "img/bookFundamentos.jpg"
+    "cover": "img/bookFundamentos.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 
 {
@@ -59,34 +66,39 @@
     "author": "Alfredo Muños & Sheila Corcoles",
     "stock": 24,
     "price": 72,
-    "cover": "img/python.jpg"
+    "cover": "img/python.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 {
     "title": "Aprender React",
     "author": "Lionel Lopez",
     "stock": 14,
     "price": 55,
-    "cover": "img/react.jpg"
+    "cover": "img/react.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 {
     "title": "JS y Svelte",
     "author": "Justin Scherer",
     "stock": 4,
     "price": 19,
-    "cover": "img/svelte.jpg"
+    "cover": "img/svelte.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 {
     "title": "Programar con C++",
     "author": "Miguel Angel Acera",
     "stock": 13,
     "price": 23,
-    "cover": "img/c++.jpg"
+    "cover": "img/c++.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 },
 {
     "title": "JS y Svelte",
     "author": "Pepito Grillo",
     "stock": 22,
     "price": 45,
-    "cover": "img/go.jpg"
+    "cover": "img/go.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices fringilla nisl nec aliquet. Aliquam eleifend aliquam sapien, in cursus erat pellentesque in. Aliquam a vestibulum est, nec elementum augue."
 }
 ]
