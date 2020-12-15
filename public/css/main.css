@@ -18,9 +18,6 @@
   background-color: #cecaca;
   transform: scale(1.1);
 }
-.list-books .description1:hover {
-  display: block;
-}
 
 header {
   padding: 0.7vh;
@@ -97,8 +94,11 @@ ul .stock-precio {
 ul .price + dd {
   text-align: right;
 }
-ul .description1 {
+ul .description {
   display: none;
+}
+ul .description:hover {
+  display: block;
 }
 
 @media print {

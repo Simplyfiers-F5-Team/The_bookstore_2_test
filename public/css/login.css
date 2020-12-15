@@ -18,9 +18,6 @@
   background-color: #cecaca;
   transform: scale(1.1);
 }
-.list-books .description1:hover {
-  display: block;
-}
 
 body {
   display: flex;

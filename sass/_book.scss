@@ -46,9 +46,13 @@ ul {
         text-align: right;
     }
 
-    .description1 {
+    .description {
         display: none;
-    }   
+    } 
+
+    .description:hover {
+        display: block;
+    }
 }
 
 @media print {
