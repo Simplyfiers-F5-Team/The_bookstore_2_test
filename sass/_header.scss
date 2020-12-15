@@ -1,9 +1,14 @@
+@use 'global';
+
 header {
-    padding: 0.7vh;
+	@extend %acrylic;
+	padding: 0.7vh;
+	position: sticky;
+	top: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #9E4629;
+	background-color: #9e4629a1;
 
     h1 {
         color: white;

@@ -4,14 +4,29 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, 12rem);
     list-style: none;
-    grid-gap: 20px;
+	grid-gap: 20px;
+	overflow: auto;
+	padding-bottom: 2rem;
+	padding-top: 8rem;
     padding: 40px;
     justify-content: space-between;
     background-color: global.$main-bg-colour;
 
     li {
         padding: 1rem;
-    }
+	}
+	
+	li:hover {
+		.description {
+			display: block;
+			position: absolute;
+			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);	
+			left: 0;
+			background-color: rgb(206, 202, 202);
+			padding: 1em;
+			font-size: 0.9em;
+		}
+	}
 
     dt {
         display: none;
