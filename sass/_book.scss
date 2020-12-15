@@ -10,7 +10,12 @@ ul {
 	padding-top: 8rem;
     padding: 40px;
     justify-content: space-between;
-    background-color: global.$main-bg-colour;
+	background-color: global.$main-bg-colour;
+	&::-webkit-scrollbar {
+		display: none;
+	  }
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none; 
 
     li {
         padding: 1rem;

@@ -77,9 +77,15 @@ ul {
   padding: 40px;
   justify-content: space-between;
   background-color: #82D9B6;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
   /*     .stock+dd {
 
       } */
+}
+ul::-webkit-scrollbar {
+  display: none;
 }
 ul li {
   padding: 1rem;
